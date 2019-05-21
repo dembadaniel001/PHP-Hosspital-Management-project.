@@ -1,0 +1,27 @@
+ if($_SERVER['REQUEST_METHOD'] == "POST"){
+	 
+	 $resendvalue = null;
+	 
+	 // sql statement = 
+	 $token = str_shuffle('QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnm1230456789');
+	 $token = substr($token, 0,10);
+	 
+	 
+	 
+	 $sql = "update patient_details set token = $token where email = $_SESSION['email'] and isEmailConfirmed = 0";
+	 $valid = mysqli_query($conn,$sql);
+	        if($valid){
+				// mail to function......
+				
+				$resendvalue = "The confirmation email has been resend ";
+			}
+			else{
+				echo "There was an error experienced while updating the token......" . mysqli_error($conn);
+			}
+	 
+	 // The placement value =   
+	 if(isset($resendvalue)){
+		 echo $resendvalue;
+	 }
+	  
+ }

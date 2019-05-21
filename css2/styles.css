@@ -1,0 +1,85 @@
+#by{
+    background-color:lightgray;
+    
+
+}
+#j{
+    margin-bottom: 0px;
+    color:black;
+}
+#a{
+    color:white;
+    
+}
+#top{
+    margin-top: 80;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    height:100%;
+    width:100%;
+}
+#name{
+    color: blueviolet;
+}
+#eye{
+    color:white;
+}
+#own{
+    
+    margin-top: 5px;
+    margin-bottom: 34px;
+}
+#auntie{
+    height:400px;
+  width:100%;
+
+}
+
+img{
+  height:100%;
+  width:100%;
+}
+#who{
+    padding-top: 0px;
+      
+}
+
+#h{
+    color:rgb(233, 27, 154);
+    font-size: 40px
+}
+.footer{
+    position:fixed;
+    
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    text-align: center;
+}
+#p1{
+    font-size: 20px;
+    font-style: inherit;
+    font-family: fantasy;
+    color:rgb(211, 114, 174);
+}
+#p2{
+    color:green;
+}
+#p3{
+  color:red;
+}
+#p4{
+    color:brown;
+}
+#p5{
+    color:green;
+}
+#p6{
+    color:blue;
+}
+#p7{
+    color:rgb(6, 212, 6);
+}

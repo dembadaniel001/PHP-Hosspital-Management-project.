@@ -1,0 +1,132 @@
+.head {
+  padding-top:100px;
+}
+
+.jumbo {
+  /*padding-top:65px;*/
+  /*margin-top:87px;*/
+  border-radius:50px;
+  max-width:800px;
+  margin:0 auto;
+  /*margin:70px;*/
+}
+
+#subHeading {
+  text-align:center;
+  padding-top:0px;
+}
+
+.header-dark {
+  margin-bottom:-80px;
+}
+
+.jumbotron-heading {
+  font-family:"Times new roman";
+  text-align:center;
+}
+
+#JumbotronText {
+  text-align:center;
+}
+
+#jumbotron-Button {
+}
+
+.jumbotron.jumbo {
+  text-align:center;
+}
+
+.majorDiv {
+  margin-top:85px;
+  background-image:url;
+  padding:25px;
+  padding-top:80px;
+}
+
+.threeColumns {
+  text-align:center;
+  color:rgb(20,63,219);
+}
+
+.HeadingThreeColumns {
+  text-align:center;
+  text-decoration:underline;
+}
+
+.newColumn {
+  border-left:2px solid black;
+  border-right:2px solid black;
+}
+
+body {
+  /*background-color:#d3e4f8;*/
+}
+
+@media (max-width: 450px) {
+  #inSmallSize {
+    font-size:25px;
+  }
+}
+
+@media (max-width: 450px) {
+  #brandInSmall {
+    font-size:20px;
+  }
+}
+
+#newsHeading {
+  text-align:center;
+  color:blue;
+}
+
+.footer {
+  margin-top:0px;
+}
+
+.text {
+  text-align:center;
+}
+
+.ourDedics {
+  border:1px dotted black;
+}
+
+@media (max-width: 500px) {
+  .jumbotron.jumbo {
+  }
+}
+
+@media (max-width: 500px) {
+  .majorDiv {
+    margin-top:0px;
+  }
+}
+
+@media (max-width: 500px) {
+  .patnersHeaders {
+    font-size:26px;
+  }
+}
+
+.givered {
+  color:red;
+}
+
+.added {
+  margin-bottom:30px;
+}
+
+overview-box {
+}
+
+.th {
+  text-align:center;
+}
+
+.card {
+}
+
+.action {
+  border-radius:50%;
+}
+

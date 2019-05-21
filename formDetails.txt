@@ -1,0 +1,11 @@
+DETAILS ON THE FORMS .
+ 1. PATIENT REGISTRATION FORM:
+     1. name = fName id = fName 
+     2. name = Lname id = Lname
+     3.name = date  id = date
+     4. name = birthCertNumber id = birthCertNumber
+     5.name = nhifNumber id = nhifNumber
+     6. name = kraNumber id = kraNumber
+     7. name = email id = email
+     8. name = phone id = phone
+     9. name = callTime id = callTime
